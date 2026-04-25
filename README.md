@@ -1,7 +1,7 @@
 # Architecture-of-CLIP-by-PyTorch
 
 
-OpenAIの[CLIP](https://openai.com/ja-JP/index/clip/)をPyTorchのみで実装しました。
+OpenAIの[CLIP](https://openai.com/ja-JP/index/clip/)をPyTorchのみで実装しました。Transformersライブラリを使わず、PyTorchのみでCLIPをスクラッチ実装した理由には、自分がTransformersの挙動、そしてViTを理解したかったからという理由があります。また、今までは何かしらの本を見ながら実装していたため、論文から実装する練習でもありました。
 
 
 使用ライブラリ

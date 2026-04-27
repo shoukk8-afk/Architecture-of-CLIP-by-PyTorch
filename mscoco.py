@@ -1,18 +1,3 @@
-# %%
-from google.colab import drive
-import sys
-import os
-
-#ドライブをマウント
-drive.mount('/content/drive')
-# My Driveのパスをシステムパスに追加します
-my_drive_path = '/content/drive/MyDrive'
-if my_drive_path not in sys.path:
-    sys.path.append(my_drive_path)
-
-print("sys.path に My Drive を追加しました。")
-
-# %%
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

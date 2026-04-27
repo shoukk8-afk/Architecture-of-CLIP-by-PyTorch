@@ -202,6 +202,3 @@ clip_training(100, optimizer, loss_fn, train_loader, model, device)
 #Epoch: 98, Loss: 2.33016344755888
 #Epoch: 99, Loss: 2.3197243474423885
 #Epoch: 100, Loss: 2.3292756229639053
-"""
-
-
